@@ -149,3 +149,16 @@
 20220415	10:51:44	e8d67e18-564b-4135-9de8-fcb94f04c0e0	GET	undefined	/
 20220415	10:51:44	13bfcedf-616b-4a4a-a5fa-62c8431727f1	GET	undefined	/css/style.css
 20220415	10:51:45	a756b6b9-9986-4371-972a-0015ace9ca52	GET	undefined	/favicon.ico
+20220415	11:01:04	73c663ca-3aaa-4f6e-bcdc-74d902a85016	GET	undefined	/
+20220415	11:01:04	2466af62-3f43-4dd5-8fb4-3e6e29a88473	GET	undefined	/css/style.css
+20220415	11:01:04	7d38edfb-e85c-4a8d-ac94-210cfc370e09	GET	undefined	/favicon.ico
+20220415	11:01:10	ab05e3ed-a381-4663-bc81-4585a11b9644	GET	undefined	/routes/api/employees
+20220415	11:01:10	d9c83a88-f13d-4405-b0f9-190cd16f2ad8	GET	undefined	/favicon.ico
+20220415	11:01:42	12e0ed2c-5d3b-43f9-a9cc-ade8efef3ad6	GET	undefined	/404
+20220415	11:01:42	b3bd9969-9b01-4c50-865f-3c3f909b5555	GET	undefined	/favicon.ico
+20220415	11:01:47	9dfc0056-643c-49af-bef4-f18bd78c30bf	GET	undefined	/
+20220415	11:01:47	2fb2b0cf-0fd5-494a-931b-108c2aa13213	GET	undefined	/css/style.css
+20220415	11:01:47	9e43d7d4-2ff6-40d4-9607-245ad30d8b64	GET	undefined	/favicon.ico
+20220415	11:11:31	1e86aca0-9bb2-458c-9dca-91a941b0b698	GET	undefined	/
+20220415	11:11:31	39bf4b98-5e2a-48ce-bd72-1501cd6f460b	GET	undefined	/css/style.css
+20220415	11:11:31	2ba747b5-896d-4027-b604-5c4d7680c710	GET	undefined	/favicon.ico
