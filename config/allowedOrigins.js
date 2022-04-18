@@ -3,7 +3,7 @@ const allowedOrigins = [
   'http://localhost:3500',
   'http://localhost:3000',
   'https://rental-gf.herokuapp.com',
-  'https://rental-gf-c0a84a.netlify.app/',
+  'https://rental-gf-c0a84a.netlify.app',
 ];
 
 module.exports = allowedOrigins;
