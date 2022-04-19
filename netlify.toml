@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/views/index.html"
+  to = "./routes/root"
   status = 200
