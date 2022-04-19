@@ -162,3 +162,9 @@
 20220415	11:11:31	1e86aca0-9bb2-458c-9dca-91a941b0b698	GET	undefined	/
 20220415	11:11:31	39bf4b98-5e2a-48ce-bd72-1501cd6f460b	GET	undefined	/css/style.css
 20220415	11:11:31	2ba747b5-896d-4027-b604-5c4d7680c710	GET	undefined	/favicon.ico
+20220419	20:43:26	94fc0020-2c9c-4c48-9de2-238d4a4041d4	OPTIONS	http://localhost:3000	/auth
+20220419	20:43:26	1db33568-7a76-49fc-bc05-1d8dde58889a	POST	http://localhost:3000	/auth
+20220419	20:43:45	7cc4a15c-c928-484e-b53c-54194ed14e71	OPTIONS	http://localhost:3000	/auth
+20220419	20:43:45	6e2d318c-2f4e-4a2e-a7b7-69d3eb4ea3fc	POST	http://localhost:3000	/auth
+20220419	20:46:19	356b7068-5cda-4967-a1b3-e7c6d4803b6c	OPTIONS	http://localhost:3000	/auth
+20220419	20:46:19	9f4e748c-79de-4f0e-a478-90ce20c37b5b	POST	http://localhost:3000	/auth
