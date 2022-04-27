@@ -90,11 +90,13 @@ const employeeSchema = new Schema({
     type: String,
     required: true,
   },
-  timetable: {
-    customer: { type: String },
-    start: { type: String },
-    end: { type: String },
-  },
+  timetable: [
+    {
+      customer: { type: String },
+      start: { type: String },
+      end: { type: String },
+    },
+  ],
 });
 
 module.exports = mongoose.model('Employee', employeeSchema);
