@@ -8,51 +8,51 @@ const employeeSchema = new Schema({
   },
   bloodtype: {
     type: String,
-    required: true,
+    // required: true,
   },
   height: {
     type: String,
-    required: true,
+    // required: true,
   },
   birthplace: {
     type: String,
-    required: true,
+    // required: true,
   },
   profession: {
     type: String,
-    required: true,
+    // required: true,
   },
   style: {
     type: String,
-    required: true,
+    // required: true,
   },
   personality: {
     type: String,
-    required: true,
+    // required: true,
   },
   sake: {
     type: String,
-    required: true,
+    // required: true,
   },
   tobacco: {
     type: String,
-    required: true,
+    // required: true,
   },
   intro: {
     type: String,
-    required: true,
+    // required: true,
   },
   rank: {
     type: String,
-    required: true,
+    // required: true,
   },
   manager: {
     type: String,
-    required: true,
+    // required: true,
   },
   lineid: {
     type: String,
-    required: true,
+    // required: true,
   },
   imgPath1: {
     type: String,
@@ -60,31 +60,40 @@ const employeeSchema = new Schema({
   },
   imgPath2: {
     type: String,
-    required: true,
+    // required: true,
   },
   imgPath3: {
     type: String,
-    required: true,
+    // required: true,
   },
   imgPath4: {
     type: String,
-    required: true,
+    // required: true,
   },
   imgPath5: {
     type: String,
-    required: true,
+    // required: true,
   },
   imgPath6: {
     type: String,
-    required: true,
+    // required: true,
   },
   imgPath7: {
     type: String,
-    required: true,
+    // required: true,
   },
   imgPath8: {
     type: String,
+    // required: true,
+  },
+  landingImg: {
+    type: String,
     required: true,
+  },
+  timetable: {
+    customer: { type: String },
+    start: { type: String },
+    end: { type: String },
   },
 });
 

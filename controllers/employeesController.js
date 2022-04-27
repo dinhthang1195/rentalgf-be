@@ -34,6 +34,9 @@ const createNewEmployee = async (req, res) => {
       imgPath6: req.body.imgPath6,
       imgPath7: req.body.imgPath7,
       imgPath8: req.body.imgPath8,
+      imgPath8: req.body.imgPath8,
+      landingImg: req.body.landingImg,
+      timetable: req.body.timetable,
     });
 
     res.status(201).json(result);
@@ -72,6 +75,8 @@ const updateEmployee = async (req, res) => {
   if (req.body?.imgPath6) employee.imgPath6 = req.body.imgPath6;
   if (req.body?.imgPath7) employee.imgPath7 = req.body.imgPath7;
   if (req.body?.imgPath8) employee.imgPath8 = req.body.imgPath8;
+  if (req.body?.landingImg) employee.landingImg = req.body.landingImg;
+  if (req.body?.timetable) employee.timetable = req.body.timetable;
 
   const result = await employee.save();
   res.json(result);
