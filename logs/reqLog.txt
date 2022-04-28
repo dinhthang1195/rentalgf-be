@@ -188,3 +188,4 @@
 20220423	18:56:33	e5218787-d980-4332-8160-d6e19ba83381	OPTIONS	http://localhost:3000	/employees
 20220423	18:56:34	9f23c3e2-e9ee-45f8-8ed4-947495d65a8c	GET	http://localhost:3000	/employees
 20220423	18:56:34	1ca993d6-8e57-4f2b-bef1-45107cc56a18	GET	http://localhost:3000	/employees
+20220428	19:31:40	1ad23144-6414-442c-a0c4-4818ae9f852c	GET	http://localhost:3000	/fe/employees
