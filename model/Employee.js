@@ -56,7 +56,7 @@ const employeeSchema = new Schema({
   },
   imgPath1: {
     type: String,
-    required: true,
+    // required: true,
   },
   imgPath2: {
     type: String,
