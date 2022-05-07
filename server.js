@@ -8,6 +8,7 @@ const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
 const credentials = require('./middleware/credentials');
 const mongoose = require('mongoose');
 const connectDB = require('./config/dbConn');
@@ -15,7 +16,7 @@ const PORT = process.env.PORT || 3500 || 8080;
 
 //connect to MongoDB
 connectDB();
-
+// *************************** Application Middleware ***************************
 // custom middleware logger
 app.use(logger);
 
@@ -35,6 +36,9 @@ app.use(express.json());
 //middleware for cookies
 app.use(cookieParser());
 
+//body parser
+// app.use(bodyParser.urlencoded({ extend: true }));
+// app.use(bodyParser.json());
 //serve static files
 app.use('/', express.static(path.join(__dirname, '/public')));
 
