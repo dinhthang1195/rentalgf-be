@@ -1284,3 +1284,16 @@
 20220508	06:30:41	506f7447-99c5-4b27-b28b-9d66635d6661	GET	http://localhost:3000	/fe/employees
 20220508	06:31:08	1162dd1b-e589-4e44-8dd5-697245b42ae5	OPTIONS	http://localhost:3000	/fe/employees
 20220508	06:31:08	43517cd2-a80d-4b82-8314-d766e71e2e53	GET	http://localhost:3000	/fe/employees
+20220510	20:59:05	546b160f-f040-4772-bf0c-18a26074bebd	OPTIONS	http://localhost:3000	/employees/6263f1fd52b27cc0b1b5603b
+20220510	20:59:06	8dde69a7-4601-4209-a1cf-e3c84593c996	GET	http://localhost:3000	/employees/6263f1fd52b27cc0b1b5603b
+20220510	20:59:10	d07381f6-5bb5-47e3-812e-8e0281b3393f	OPTIONS	http://localhost:3000	/fe/employees
+20220510	20:59:10	145116e6-6036-474d-aae5-85108a611ced	GET	http://localhost:3000	/fe/employees
+20220510	20:59:50	bbc74930-f0a9-4406-b6fd-aca8e307521c	GET	http://localhost:3000	/employees/625827af26e7a2b4524c8085
+20220510	21:00:03	792686bc-01dc-484d-85f5-31cc3d3c1c3b	GET	http://localhost:3000	/employees/625827af26e7a2b4524c8085
+20220510	21:00:13	d92c9846-1dc8-4b97-875c-e720800ba95d	GET	http://localhost:3000	/fe/employees
+20220510	21:00:44	a0ed17ac-49f2-47d7-82b1-173d1d5bcaaf	OPTIONS	http://localhost:3000	/auth
+20220510	21:00:44	25fb3c9c-6485-4797-9d2a-3a6c326fd94b	POST	http://localhost:3000	/auth
+20220510	21:00:44	fb746acd-64be-49a3-adc1-b4477c77ae43	OPTIONS	http://localhost:3000	/fe/employees
+20220510	21:00:44	736f1ccb-2bae-46b5-888e-4f3bb2feac3d	GET	http://localhost:3000	/fe/employees
+20220510	21:00:56	8576e1d7-db81-459c-a907-d9d281932cd5	OPTIONS	http://localhost:3000	/employees/625827af26e7a2b4524c8085
+20220510	21:00:56	74cd212d-11ab-43a1-8088-11a2b6a3dfcf	GET	http://localhost:3000	/employees/625827af26e7a2b4524c8085
